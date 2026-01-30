@@ -1,0 +1,647 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "d46bcc44-f9c6-4279-a08a-290443f8d729")
+	(paper "A5")
+	(lib_symbols)
+	(text "Board Layer Stackup"
+		(exclude_from_sim no)
+		(at 106.68 39.624 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "3f94f9f8-e344-471a-8ec8-94486b3f4697")
+	)
+	(text "Overall Board Notes:\nPOCAN takes in two power inputs, one from the main battery pack, and\none from the aux battery. Both connections, however, come from LV Sense and each carry 24V.\nFrom there, the power gets split amongst 10 outputs, five on the left half of the\nboard and five on the right half. The 3 power outputs that require the aux battery\nare all on the right side of the board. Also, there are 2 shield networks\ninstead of just 1 in order to prevent ground looping from occurring.\n"
+		(exclude_from_sim no)
+		(at 105.918 24.892 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "fb2a1392-c48b-4d5f-81d2-d0e2312ebb87")
+	)
+	(table
+		(column_count 3)
+		(border
+			(external yes)
+			(header yes)
+			(stroke
+				(width 0)
+				(type solid)
+				(color 0 0 0 1)
+			)
+		)
+		(separators
+			(rows yes)
+			(cols yes)
+			(stroke
+				(width 0)
+				(type solid)
+				(color 0 0 0 1)
+			)
+		)
+		(column_widths 19.558 19.558 24.892)
+		(row_heights 3.556 3.556 3.048 3.81 3.048)
+		(cells
+			(table_cell "Layer"
+				(exclude_from_sim no)
+				(at 76.962 41.148 0)
+				(size 19.558 3.556)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(color 0 0 0 1)
+					)
+				)
+				(uuid "6affaffd-4463-4d56-9557-98bb2f821cdb")
+			)
+			(table_cell "MCU Side"
+				(exclude_from_sim no)
+				(at 96.52 41.148 0)
+				(size 19.558 3.556)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(color 0 0 0 1)
+					)
+				)
+				(uuid "c43e3a01-513c-468b-88d9-e93a3f22da74")
+			)
+			(table_cell "Power Side"
+				(exclude_from_sim no)
+				(at 116.078 41.148 0)
+				(size 24.892 3.556)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(color 0 0 0 1)
+					)
+				)
+				(uuid "1147e6c2-750f-49ed-bce2-5675f6740444")
+			)
+			(table_cell "Front"
+				(exclude_from_sim no)
+				(at 76.962 44.704 0)
+				(size 19.558 3.556)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(color 0 0 0 1)
+					)
+				)
+				(uuid "acd9fcc7-1d8b-4a27-bf1b-d31ecd028e65")
+			)
+			(table_cell "Signal/GND"
+				(exclude_from_sim no)
+				(at 96.52 44.704 0)
+				(size 19.558 3.556)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(color 0 0 0 1)
+					)
+				)
+				(uuid "5d0319fb-c0ab-4ca1-8854-09ff749e7203")
+			)
+			(table_cell "Signal/GND_OUT/5V"
+				(exclude_from_sim no)
+				(at 116.078 44.704 0)
+				(size 24.892 3.556)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(color 0 0 0 1)
+					)
+				)
+				(uuid "477bbf67-a377-48f7-b2cf-a29c16bbce6e")
+			)
+			(table_cell "In1"
+				(exclude_from_sim no)
+				(at 76.962 48.26 0)
+				(size 19.558 3.048)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(color 0 0 0 1)
+					)
+				)
+				(uuid "037ed864-2c99-4070-91be-801f0ce74dad")
+			)
+			(table_cell "GND"
+				(exclude_from_sim no)
+				(at 96.52 48.26 0)
+				(size 19.558 3.048)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(color 0 0 0 1)
+					)
+				)
+				(uuid "0382f325-4191-4586-baff-ed28fbe74b82")
+			)
+			(table_cell "GND_OUT"
+				(exclude_from_sim no)
+				(at 116.078 48.26 0)
+				(size 24.892 3.048)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(color 0 0 0 1)
+					)
+				)
+				(uuid "f7c113d2-afa4-4ae2-92fc-84cbd3fe1a4e")
+			)
+			(table_cell "In2"
+				(exclude_from_sim no)
+				(at 76.962 51.308 0)
+				(size 19.558 3.81)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(color 0 0 0 1)
+					)
+				)
+				(uuid "7e837980-5daf-46f8-935a-1a44ecca07f9")
+			)
+			(table_cell "3.3V"
+				(exclude_from_sim no)
+				(at 96.52 51.308 0)
+				(size 19.558 3.81)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(color 0 0 0 1)
+					)
+				)
+				(uuid "94b55d39-f957-44ab-b7db-d73463a8d2d6")
+			)
+			(table_cell "GND_OUT"
+				(exclude_from_sim no)
+				(at 116.078 51.308 0)
+				(size 24.892 3.81)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(color 0 0 0 1)
+					)
+				)
+				(uuid "1e4d1f4c-2394-4f8f-9a5b-9097acfc8ff7")
+			)
+			(table_cell "Back"
+				(exclude_from_sim no)
+				(at 76.962 55.118 0)
+				(size 19.558 3.048)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(color 0 0 0 1)
+					)
+				)
+				(uuid "2b0f0d2e-255a-4507-b1b6-e3c6651c8848")
+			)
+			(table_cell "Signal/GND"
+				(exclude_from_sim no)
+				(at 96.52 55.118 0)
+				(size 19.558 3.048)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(color 0 0 0 1)
+					)
+				)
+				(uuid "47eeb237-9a13-473a-b7c2-2df8bbdeffad")
+			)
+			(table_cell "Signal/24V_In/Aux_Bat"
+				(exclude_from_sim no)
+				(at 116.078 55.118 0)
+				(size 24.892 3.048)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(color 0 0 0 1)
+					)
+				)
+				(uuid "a0e20197-a8a4-442d-8f35-92d48e46323e")
+			)
+		)
+	)
+	(sheet
+		(at 100.33 77.47)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "0d002dd0-86e5-4e97-8279-da69abe9f18a")
+		(property "Sheetname" "CAN"
+			(at 100.33 76.7584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "CAN.kicad_sch"
+			(at 100.076 82.042 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "POCAN"
+				(path "/d46bcc44-f9c6-4279-a08a-290443f8d729"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 100.33 87.63)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "13103689-c01d-450b-a893-9d064baf9efc")
+		(property "Sheetname" "STM"
+			(at 100.33 86.9184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "STM.kicad_sch"
+			(at 100.33 92.0246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "POCAN"
+				(path "/d46bcc44-f9c6-4279-a08a-290443f8d729"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 124.46 77.47)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5d27b5f2-8527-4a58-86e4-9011b6b14523")
+		(property "Sheetname" "Load_Switches"
+			(at 123.952 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Load_Switches.kicad_sch"
+			(at 123.952 82.042 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "POCAN"
+				(path "/d46bcc44-f9c6-4279-a08a-290443f8d729"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 73.66 77.47)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "6fec35a1-7358-43e5-8cc3-e8ec3f6a6b38")
+		(property "Sheetname" "Power"
+			(at 73.66 76.7584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power.kicad_sch"
+			(at 73.406 82.042 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "POCAN"
+				(path "/d46bcc44-f9c6-4279-a08a-290443f8d729"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 124.46 67.31)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a1f08a11-f00a-4f25-a8ae-1484792f6dde")
+		(property "Sheetname" "Digital_Isolation"
+			(at 124.46 66.5984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Digital_Isolation.kicad_sch"
+			(at 124.206 71.628 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "POCAN"
+				(path "/d46bcc44-f9c6-4279-a08a-290443f8d729"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 73.66 87.63)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c17720c3-5531-4972-aaa7-269914bca73f")
+		(property "Sheetname" "ADC"
+			(at 73.66 86.9184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ADC.kicad_sch"
+			(at 73.66 92.0246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "POCAN"
+				(path "/d46bcc44-f9c6-4279-a08a-290443f8d729"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 73.66 67.31)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "cca01424-6819-43de-b59d-bcd7eabca4e1")
+		(property "Sheetname" "Inputs"
+			(at 73.66 66.5984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Inputs.kicad_sch"
+			(at 73.66 71.7046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "POCAN"
+				(path "/d46bcc44-f9c6-4279-a08a-290443f8d729"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 100.33 67.31)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f0cdf8ce-fc08-4687-b0a6-15617befd216")
+		(property "Sheetname" "Outputs"
+			(at 100.33 66.5984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Outputs.kicad_sch"
+			(at 100.33 71.7046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "POCAN"
+				(path "/d46bcc44-f9c6-4279-a08a-290443f8d729"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
