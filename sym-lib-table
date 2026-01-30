@@ -1,0 +1,6 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "Load_Switch")(type "KiCad")(uri "${KIPRJMOD}/Symbols/High_Side_Switch.kicad_sym")(options "")(descr ""))
+  (lib (name "6_Channel_Isolators")(type "KiCad")(uri "${KIPRJMOD}/Symbols/6_Channel_Isolator.kicad_sym")(options "")(descr ""))
+  (lib (name "I2C_Isolator")(type "KiCad")(uri "${KIPRJMOD}/Symbols/I2C_Isolator.kicad_sym")(options "")(descr ""))
+)
